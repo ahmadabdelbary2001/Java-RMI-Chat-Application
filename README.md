@@ -3,6 +3,10 @@
 ## Overview
 This project is a chat application implemented using Java RMI (Remote Method Invocation). It consists of a server and client that communicate over a network. The client provides a graphical interface built with Swing, and the server manages chat rooms, user authentication, and message routing.
 
+A full-stack distributed chat system using Java RMI with Swing GUI. Supports group chats, private messaging, contact management, and offline message delivery.
+
+![Application Screenshot](App.jpg)
+
 ## Features
 
 ### Chat Client
