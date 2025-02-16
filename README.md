@@ -22,6 +22,7 @@ This project is a chat application implemented using Java RMI (Remote Method Inv
 ## Project Structure
 
 ### Server-Side
+```
 src/
 ├── org/ds/
 │   ├── IChatClient.java       # Client stub interface
@@ -30,7 +31,7 @@ src/
 │   ├── User.java              # User entity class  
 │   ├── Room.java              # Chat room management
 │   └── Main.java              # Server bootstrap
-
+```
 ### Client-Side
 src/
 ├── org/ds/
