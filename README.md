@@ -49,6 +49,7 @@ Compile all Java files in both Chat-Client and Chat-Server folders.
 Start the Chat-Server by running the ChatServer class.  
 Launch the Chat-Client by running the ClientMain class or ChatGUI class.  
 Make sure to have the necessary RMI security policy in place.
+
 SecurityPolicy.policy:
 ```
 grant{
