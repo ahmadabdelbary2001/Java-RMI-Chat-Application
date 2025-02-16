@@ -1,9 +1,7 @@
 # Java RMI Chat Application
 
 ## Overview
-This project is a chat application implemented using Java RMI (Remote Method Invocation). It consists of a server and client that communicate over a network. The client provides a graphical interface built with Swing, and the server manages chat rooms, user authentication, and message routing.
-
-A full-stack distributed chat system using Java RMI with Swing GUI. Supports group chats, private messaging, contact management, and offline message delivery.
+This full-stack distributed chat system implemented using Java RMI features a Swing-based graphical client and a server that communicates over a network to manage chat rooms, user authentication, and message routing while supporting group chats, private messaging, contact management, and offline message delivery.
 
 ![Application Screenshot](App.jpg)
 
@@ -47,8 +45,18 @@ src/
 │   └── Main.java              # Client entry point
 ```
 ## Getting Started
+Compile all Java files in both Chat-Client and Chat-Server folders.  
+Start the Chat-Server by running the ChatServer class.  
+Launch the Chat-Client by running the ClientMain class or ChatGUI class.  
+Make sure to have the necessary RMI security policy in place.
+SecurityPolicy.policy:
+```
+grant{
+    permission java.security.AllPermission;
+}
+```
 
-### Prerequisites
+## Prerequisites
 - Java JDK 23
 - Maven
 - Java RMI (included in JDK)
