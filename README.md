@@ -21,26 +21,29 @@ This project is a chat application implemented using Java RMI (Remote Method Inv
 
 ## Project Structure
 
-### Server
-src/ ├── org/ds/ │ ├── IChatClient.java # Client stub interface │ ├── IChatServer.java # Server service interface │ ├── ChatServerImpl.java # RMI service implementation │ ├── User.java # User entity class
-│ ├── Room.java # Chat room management │ └── Main.java # Server bootstrap
+### Server-Side
+src/
+├── org/ds/
+│   ├── IChatClient.java       # Client stub interface
+│   ├── IChatServer.java       # Server service interface
+│   ├── ChatServerImpl.java    # RMI service implementation
+│   ├── User.java              # User entity class  
+│   ├── Room.java              # Chat room management
+│   └── Main.java              # Server bootstrap
 
-shell
-Copy
-Edit
-
-### Client
-src/ ├── org/ds/ │ ├── IChatClient.java # Client callback interface │ ├── IChatServer.java # Server interface
-│ ├── ChatClientImpl.java # RMI client implementation │ ├── ClientGUI.java # Swing interface │ └── Main.java # Client entry point
-
-markdown
-Copy
-Edit
+### Client-Side
+src/
+├── org/ds/
+│   ├── IChatClient.java       # Client callback interface
+│   ├── IChatServer.java       # Server interface  
+│   ├── ChatClientImpl.java    # RMI client implementation
+│   ├── ClientGUI.java         # Swing interface
+│   └── Main.java              # Client entry point
 
 ## Getting Started
 
 ### Prerequisites
-- Java JDK 23 or higher
+- Java JDK 23
 - Maven
 - Java RMI (included in JDK)
 - Swing
