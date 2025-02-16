@@ -33,6 +33,7 @@ src/
 │   └── Main.java              # Server bootstrap
 ```
 ### Client-Side
+```
 src/
 ├── org/ds/
 │   ├── IChatClient.java       # Client callback interface
@@ -40,7 +41,7 @@ src/
 │   ├── ChatClientImpl.java    # RMI client implementation
 │   ├── ClientGUI.java         # Swing interface
 │   └── Main.java              # Client entry point
-
+```
 ## Getting Started
 
 ### Prerequisites
