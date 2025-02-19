@@ -62,3 +62,7 @@ grant{
 - Maven
 - Java RMI (included in JDK)
 - Swing
+
+
+## License 
+[MIT License](LICENSE)
